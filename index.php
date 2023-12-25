@@ -204,7 +204,17 @@
                     </div>
                 </div>
             </div>
-        </section>         
+        </section>   
+        <!-- FOOTER -->
+        <footer class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Ce portfolio a été créé à partir d'un modèle de site <a rel="nofollow" target="_blank" href="https://www.tooplate.com/">Tooplate</a>.</p>
+                    </div>       
+                </div>
+            </div>
+        </footer>      
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
