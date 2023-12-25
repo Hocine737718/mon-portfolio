@@ -1,0 +1,95 @@
+    .full-screen {
+        padding: 4rem 0;
+    }
+    #about{
+        text-align: center!important;
+    }
+    .small-text {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 50px;
+        letter-spacing: 0.2px;
+    }
+    .custom-btn {
+        background: #eee;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 50px;
+        padding: 13px 29px;
+        font-size: 14px;
+        line-height: normal;
+        overflow: hidden;
+        transition: all 0.4s ease;
+    }
+    .custom-btn:hover {
+        color: blue;
+    }
+    .custom-btn.custom-btn-bg {
+        background: #0d7880;
+        color: #ffffff;
+    }
+    .custom-btn.custom-btn-bg:hover {
+        background: blue;
+        color: black !important;
+    }
+    .animated {
+        position: relative;
+    }
+    .animated-info {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+        min-width: 260px;
+        position: relative;
+        width:100%;
+    }
+    .animated-item {
+        color: blue;
+    }
+    .animated-item {
+        font-size: 38px;
+        line-height: inherit;
+        display: block;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        animation: BottomTotop 4s linear infinite 0s;
+    }
+    .animated-item:nth-child(2n+2) {
+        animation-delay: 2s;
+    }
+    .animated-item:nth-child(3n+3) {
+        animation-delay: 2s;
+    }
+    @keyframes BottomTotop {
+        0% {
+        opacity: 0;
+        }
+        5% {
+        opacity: 0;
+        transform: translateY(5px);
+        }
+        10% {
+        opacity: 1;
+        transform: translateY(0px);
+        }
+        25% {
+        opacity: 1;
+        transform: translateY(0px);
+        }
+        30% {
+        opacity: 0;
+        transform: translateY(5px);
+        }
+        80% {
+        opacity: 0;
+        }
+        100% {
+        opacity: 0;
+        }
+    }
