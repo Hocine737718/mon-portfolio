@@ -1,0 +1,122 @@
+    @media (min-width: 1270px) {
+        .owl-theme .owl-dots {
+            position: relative;
+            bottom: 50px;
+        }
+    }
+    @media (max-width: 1199px) {
+        .contact-info-item h5 {
+            font-size: 1.1rem;
+        }
+        #resume-box{
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+    }
+    @media (max-width: 991px) {
+        .contact-info-item h5 {
+        font-size: 1.5rem;
+        }
+        .about-image {
+            margin-top: 4em;
+        }
+        .mobile-mt-2, .contact-form {
+            margin-top: 2em;
+        }
+        .contact-info {
+            padding: 0 2rem;
+        }
+        .about-image .img-fluid {
+            max-width: 70%;
+            height: auto;
+        }
+        .nav-link {
+            font-size: 15px;
+        }
+    }
+    @media (max-width: 767px) {
+        h1 {
+            font-size: 2.4em;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        #resume-box{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .animated-item {
+            font-size: 28px;
+        }
+        .navbar-expand-sm .navbar-nav .nav-link {
+            padding: 3px 20px;
+        }
+        .navbar-collapse {
+            padding-bottom: 20px;
+        }
+    }
+    @media (max-width: 580px) {
+        .animated-info {
+            min-width: 200px;
+        }
+        .animated-item {
+            font-size: 30px;
+        }
+        .custom-btn-group {
+            text-align: center;
+        }
+        .custom-btn {
+            display: block;
+            margin: 10px 0;
+        }
+        .owl-theme .owl-nav {
+            display: none;
+        }
+        .timeline-info small {
+            display: block;
+            margin: 10px 0 0 0;
+        }
+    }
+    @media (max-width: 425px) {
+        #resume-box h2{
+            font-size: 1.7rem
+        }
+        #resume-box h3{
+            font-size: 1rem;
+            min-height: 35px;
+            margin-top: 10px;
+        }
+        .timeline-info small {
+            font-size: 12px;
+        }
+    }
+    @media (max-width: 320px) {
+        .animated-text {
+            margin-top: 0;
+        }
+        .full-screen {
+            padding: 4rem 0;
+        }
+        .mobile-block {
+            display: block;
+        }
+        .contact-info {
+            flex-direction: column;
+        }
+        .social-links li {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .copyright-text{
+            font-size: 20px;
+        }
+        .about-image .img-fluid {
+            max-width: 85%;
+            height: auto;
+        }
+    }

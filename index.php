@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="css/resume.css">
         <link rel="stylesheet" href="css/projects.css">
         <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
         <!-- NAVBAR -->
