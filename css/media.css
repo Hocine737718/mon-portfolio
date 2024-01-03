@@ -58,6 +58,7 @@
         }
         .navbar-collapse {
             padding-bottom: 20px;
+            background-color: #202038;
         }
     }
     @media (max-width: 580px) {
