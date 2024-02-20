@@ -138,29 +138,14 @@
                         </div>
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <div class="project-info">
+                                <a class="project-info" href="https://multi-serivce.vercel.app/" target="_blank">
                                     <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
-                                </div>
+                                </a>
                             </div>
                             <div class="item">
-                                <div class="project-info">
+                                <a class="project-info" href="https://green-art-frontend.vercel.app/" target="_blank">
                                     <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="project-info">
-                                    <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="project-info">
-                                    <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="project-info">
-                                    <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
